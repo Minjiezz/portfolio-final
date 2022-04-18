@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--  TIP 
+	You will find any errors from the head section using the console. -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0MMNNXR06"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-Y0MMNNXR06');
+	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/camera.ico">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/9bc3b56583.js" crossorigin="anonymous"></script>
+	<title>About me</title>
+</head>
+
+<body>
+	<div class="changecolor">
+	<a class="skip" href='#main'>Skip to Main</a>
+	<header>
+		<div class="headergrid">
+		<img src="images/logo.png" alt="This is a logo" id = "logo">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="landscape.html">Landscapes</a></li>
+				<li><a href="animals.html">Animals</a></li>
+				<li class="active"><a href="aboutme.html">About me</a></li>
+			</ul>
+		</nav>
+		</div>
+		<h1>About me</h1>
+	</header>
+</div>
+
+
+	<main id='main'>
+
+		<div class="flip-card">
+			<div class="flip-card-inner">
+				<a href="#" id="flip-card-inner">
+				<div class="flip-card-front">
+				<img id='backprofile'src="images/aboutme.jpg" alt="A photo of Minjie wearing a black hat in Sichuan Jiuzhaigou, China, 2021"
+					width="200" />
+				</div>
+				</a>
+
+				<div class="flip-card-back">
+					<div class="needplace"></div>
+					<h1 class="flipcardname">Minjie Zhao</h1>
+					<p>An UI/UX Designer</p>
+					<p>who like photography</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="needaplace"></div>
+		<div>
+		<p>I am a graduate student in The University of Michigan, and I hope to become
+			a designer in the future. Photography is one of my hobbies. I am not professional,
+			but I enjoy the process very much. My current device is a Canon 5D4, and I'm working
+			on it silently because there's a lot to learn. If you have any suggestions for me
+			to improve my skills, you are very welcome to contact me.</p>
+		</div>
+
+		<form action="https://formspree.io/f/moqrkpyp" method="POST">
+			<fieldset>
+				<legend>Contact me:</legend><br>
+				<label for="name">
+					<i class="fa-solid fa-user"></i>
+					Name:</label><br/>
+				<input name="name" type="text" id = "name" placeholder = "your name"><br/>
+
+				<label for="tel">
+					<i class="fa-solid fa-phone"></i>
+					Tel:</label><br/>
+				<input name="tel" type="text" id = "tel" placeholder = "your number"><br/>
+
+				<label for="email">
+					<i class="fa-solid fa-envelope"></i>
+					Email:</label><br/>
+				<input name="email" type="email" id="email"placeholder = "your email"><br/>
+
+				<label for="message">
+					<i class="fa-solid fa-message"></i>
+					Message:</label><br/>
+				<textarea name="message" type="text" id = "message" placeholder = "your message"></textarea><br>
+				<input type = "submit" value = "Save!">
+			</fieldset>
+		</form>
+
+	</main>
+	<footer>
+		<p>Minjie Zhao &copy; 2022 📸</p>
+	</footer>
+</body>
+
+</html>
